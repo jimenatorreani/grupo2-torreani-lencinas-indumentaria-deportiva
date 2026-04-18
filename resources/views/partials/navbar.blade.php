@@ -1,36 +1,35 @@
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark mi-navbar">
   <div class="container">
-    <a class="navbar-brand" href="#">TIENDAsport</a>
+    <a class="navbar-brand" href="#">SportXpress</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Principal</a>
+          <a class="nav-link" href="#">PRINCIPAL</a>
         </li>  
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Catálogo de Productos</a>
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">CATÁLOGO DE PRODUCTOS</a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Mujeres</a></li>
-            <li><a class="dropdown-item" href="#">Hombres</a></li>
-            <li><a class="dropdown-item" href="#">Niños</a></li>
+            <li><a class="dropdown-item" href="#">HOMBRES</a></li>
+            <li><a class="dropdown-item" href="#">MUJERES</a></li>
           </ul>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#">Quiénes Somos</a>
+          <a class="nav-link" href="#">QUIÉNES SOMOS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Comercialización</a>
+          <a class="nav-link" href="#">COMERCIALIZACIÓN</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#">Contactos</a>
+          <a class="nav-link" href="#">CONTACTOS</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#">Términos y Usos</a>
+          <a class="nav-link" href="#">TÉRMINOS Y USOS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Consultas</a>
+          <a class="nav-link" href="#">CONSULTAS</a>
         </li>
       </ul>
     </div>

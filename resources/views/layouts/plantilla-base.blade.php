@@ -19,10 +19,11 @@
     </main>
     
 
-    {{-- FOOTER 
+    {{-- FOOTER --}}
     @include('partials.footer')
-    --}}
+    
 
 <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
 </body>
 </html>

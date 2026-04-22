@@ -5,6 +5,51 @@
 
     {{-- Acá iría el carrousel antes de la galería de productos --}}
 
+        {{--agrego un carrousel con imágenes de ropa deportiva para hombres y mujeres, utilizando el componente Carousel de Bootstrap.
+         Cada imagen tiene una descripción alternativa para mejorar la accesibilidad. El carrousel incluye controles para navegar 
+         entre las imágenes.--}}
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{asset('img/ropaHombre1.jpg')}}" class="d-block w-100" alt="Ropa de hombre">
+    </div>
+    <div class="carousel-item">
+      <img src="{{asset('img/ropaHombre2.jpg')}}" class="d-block w-100" alt="Ropa de hombre">
+    </div>
+    <div class="carousel-item">
+      <img src="{{asset('img/ropaHombre3.jpg')}}" class="d-block w-100" alt="Ropa de hombre">
+    </div>
+    <div class="carousel-item">
+      <img src="{{asset('img/ropaMujer1.jpg')}}" class="d-block w-100" alt="Ropa de mujer">
+    </div>
+    <div class="carousel-item">
+      <img src="{{asset('img/ropaMujer2.jpg')}}" class="d-block w-100" alt="Ropa de mujer">
+    </div>
+    <div class="carousel-item">
+      <img src="{{asset('img/ropaMujer3.jpg')}}" class="d-block w-100" alt="Ropa de mujer">
+    </div>
+    <div class="carousel-item">
+      <img src="{{asset('img/ropaHyM.jpg')}}" class="d-block w-100" alt="Ropa de hombre y mujer">
+    </div>
+    <div class="carousel-item">
+      <img src="{{asset('img/ropaHyM2.jpg')}}" class="d-block w-100" alt="Ropa de hombre y mujer">
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  {{--Mediante css en el archivo public/css/estilos.css, agrego estilos personalizados para el carrousel, como ajustar la altura de las imágenes, 
+   agregar un fondo oscuro con opacidad para mejorar la legibilidad de los controles y las descripciones
+   y centrar el texto de las descripciones.--}}
+
 <h2 class="mb-5 text-center fw-bold">Productos destacados</h2>
 
 {{-- mi-galeria --}}

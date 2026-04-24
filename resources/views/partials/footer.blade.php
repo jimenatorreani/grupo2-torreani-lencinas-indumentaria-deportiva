@@ -1,4 +1,4 @@
-<footer class="bg-dark text-white mt-auto py-1">{{agrego fondo de color negro, texto blanco, margen superior automático para empujar el footer hacia abajo y padding vertical de 1}}
+<footer class="bg-dark text-white mt-auto py-1">{{--agrego fondo de color negro, texto blanco, margen superior automático para empujar el footer hacia abajo y padding vertical de 1--}}
     <div class="container">
         <div class="row text-center text-md-start">
         {{--agrego primera columna de información con medidas de margenes--}}

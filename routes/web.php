@@ -8,9 +8,13 @@ Route::get('/', function () {
     return view('frontend.welcome');
 });
 
-/*Ruta para la vista 'principal'*/
+/*Ruta para las vistas ('principal'.'quienes-somos','comercializacion','contactos','terminos-y-usos','consultas')*/
 Route::get('/principal', function () {
 return view('frontend.principal');
+});
+
+Route::get('/comercializacion', function () {
+return view('frontend.comercializacion');
 });
 
 /*Ruta para la vista de los catálogos 'hombres' 'mujeres' */

@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">PRINCIPAL</a>
+          <a class="nav-link" href="/principal">PRINCIPAL</a>
         </li>  
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">CATÁLOGO DE PRODUCTOS</a>
@@ -20,7 +20,7 @@
           <a class="nav-link" href="#">QUIÉNES SOMOS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">COMERCIALIZACIÓN</a>
+          <a class="nav-link" href="/comercializacion">COMERCIALIZACIÓN</a>
         </li>
          <li class="nav-item">
           <a class="nav-link" href="#">CONTACTOS</a>

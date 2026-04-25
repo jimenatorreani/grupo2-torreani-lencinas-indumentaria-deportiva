@@ -1,5 +1,5 @@
 @extends('layouts.plantilla-base')
-
+@section('titulo', 'PRINCIPAL')
 @section('content')
 
  {{--agrego un carrousel con imágenes de ropa deportiva para hombres y mujeres, utilizando el componente Carousel de Bootstrap.

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-<title>Principal</title>
+<title>@yield('titulo') | SportXpress</title>
 <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
 <link rel="stylesheet" href="/css/estilos.css">
 </head>

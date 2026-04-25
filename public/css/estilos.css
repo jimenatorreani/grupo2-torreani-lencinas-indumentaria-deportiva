@@ -3,23 +3,18 @@ body {
  margin-top: 10px;
 }
 
-.mi-header {
-    /*background-color: lightgray !important;*/
-    color: black !important;
-    border-radius: 2px;
-    padding: 0 !important;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 6px 6px 6px rgb(31, 28, 28);
+.mi-header{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
 .mi-navbar {
-    background-color: white !important;
     border:1px solid black;
 }
 
 .mi-navbar .nav-link {
     font-family: Trebuchet MS, sans-serif !important;
-    color: black !important;
+    color: white !important;
     font-weight: bold;
     margin-right: 5px;
 
@@ -28,15 +23,20 @@ body {
 .mi-navbar .nav-link:hover {
     color: #d63333 !important;
     font-weight: bold;
-    text-decoration: underline !important;
+    /*text-decoration: underline !important;*/
+}
+
+.mi-navbar .nav-link.active {
+  color: #d63333 !important;
+  font-weight: bold;
 }
 
 .mi-navbar .navbar-brand {
     font-family: Trebuchet MS, sans-serif !important;
-    color: black !important;
+    color: white !important;
     font-weight: bold;
     font-size: 25px;
-    text-shadow: 0px 6px 0px rgba(184, 43, 18, 0.6);
+    text-shadow: 0px 6px 0px #d63333;
 }
 
 .mi-navbar .navbar-toggler {
@@ -55,15 +55,21 @@ body {
     border-radius: 5px;
 }
 
+.mi-navbar .dropdown-menu{
+    background-color: #212529;
+}
+
 .mi-navbar .dropdown-item {
     font-family: Trebuchet MS, sans-serif;
+    color: white;
+    font-weight: bold;
 }
 
 .mi-navbar .dropdown-item:hover {
     background-color: rgba(252, 238, 238, 0.1);
     color: #d63333 !important;
     font-weight: bold;
-    text-decoration: underline !important;
+    /*text-decoration: underline !important;*/
     border-radius: 5px;
 }
 

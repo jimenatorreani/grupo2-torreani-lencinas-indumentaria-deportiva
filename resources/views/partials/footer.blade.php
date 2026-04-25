@@ -1,4 +1,5 @@
 <footer class="bg-dark text-white mt-auto py-1">{{--agrego fondo de color negro, texto blanco, margen superior automático para empujar el footer hacia abajo y padding vertical de 1--}}
+    <br>
     <div class="container">
         <div class="row text-center text-md-start">
         {{--agrego primera columna de información con medidas de margenes--}}
@@ -19,7 +20,7 @@
                 <p>8:00 a 13:00 y de 17:00 a 21:00</p>
 
             </div> 
-            {{--agrego tercera columna de información con medidas de margenes y alineación de texto a la derecha en pantallas medianas y a la izquierda en pantallas pequeñas}}
+            {{-- agrego tercera columna de información con medidas de margenes y alineación de texto a la derecha en pantallas medianas y a la izquierda en pantallas pequeñas --}}
             <div class="col-md-4 mb-1 text-md-end text-center">
                 <h3 class="text-uppercase fw-bold mb-2">Contacto</h3>
                 <p class="mb-1">📞 3794-770467</p>
@@ -28,7 +29,7 @@
 
         </div>
 
-        <!-- redes sociales -->
+        {{-- redes sociales --}}
        <hr class="bg-secondary">
 
         <div class="row align-items-center">
@@ -44,4 +45,5 @@
             </div>
         </div>
     </div>
+    <br>
 </footer>

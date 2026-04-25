@@ -14,7 +14,6 @@
 </div>
 
 @if(!$categoria || $categoria == 'remeras')
-<h4>Remeras</h4>
 <div class="row">
     @for ($i = 1; $i <= 16; $i++)
         @include('partials.card-producto', [
@@ -27,7 +26,6 @@
 @endif
 
 @if(!$categoria || $categoria == 'joggings')
-<h4 class="mt-4">Joggings</h4>
 <div class="row">
     @for ($i = 1; $i <= 16
     ; $i++)

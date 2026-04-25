@@ -1,13 +1,11 @@
 @extends('layouts.plantilla-base')
 
 @section('content')
-    {{-- <h3 class="h3principal">Contenido de la página principal</h3> --}}
 
-    {{-- Acá iría el carrousel antes de la galería de productos --}}
+ {{--agrego un carrousel con imágenes de ropa deportiva para hombres y mujeres, utilizando el componente Carousel de Bootstrap.
+     Cada imagen tiene una descripción alternativa para mejorar la accesibilidad. El carrousel incluye controles para navegar 
+      entre las imágenes.--}}
 
-        {{--agrego un carrousel con imágenes de ropa deportiva para hombres y mujeres, utilizando el componente Carousel de Bootstrap.
-         Cada imagen tiene una descripción alternativa para mejorar la accesibilidad. El carrousel incluye controles para navegar 
-         entre las imágenes.--}}
     <div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
@@ -49,75 +47,92 @@
   {{--Mediante css en el archivo public/css/estilos.css, agrego estilos personalizados para el carrousel, como ajustar la altura de las imágenes, 
    agregar un fondo oscuro con opacidad para mejorar la legibilidad de los controles y las descripciones
    y centrar el texto de las descripciones.--}}
-
-<h2 class="mb-5 text-center fw-bold">Productos destacados</h2>
-
-{{-- mi-galeria --}}
-<div class="row mi-galeria">
-
-    <div class="col-md-4 mb-4">
-        <div class="producto-img">
-            <img src="{{ asset('img/fotoProducto10.jpg') }}">
-        </div>
-    </div>
-    
-    <div class="col-md-4 mb-4">
-        <div class="producto-img">
-            <img src="{{ asset('img/fotoProducto13.jpg') }}">
-        </div>
-    </div>
-
-    <div class="col-md-4 mb-4">
-        <div class="producto-img">
-            <img src="{{ asset('img/fotoProducto6.jpg') }}">
-        </div>
-    </div>
-
-    <div class="col-md-4 mb-4">
-        <div class="producto-img">
-            <img src="{{ asset('img/fotoProducto4.jpg') }}">
-        </div>
-    </div>
-
-    <div class="col-md-4 mb-4">
-        <div class="producto-img">
-            <img src="{{ asset('img/zapatillasnegras.jpg') }}">
-        </div>
-    </div>
-
-    <div class="col-md-4 mb-4 ">
-        <div class="producto-img">
-            <img src="{{ asset('img/fotoProducto9.jpg') }}">
-        </div>
-    </div>    
-
-</div>
-
+<br><br>
 
 {{-- mi-galeria2 --}}
+<div class="container-fluid">
+    <h4 class="mb-5 titulosmigaleria">Entrená con estilo</h4>
+
+    <div class="row mi-galeria1 g-4">
+
+        <div class="col-md-3">
+            <div class="img-container">
+            <img src="{{ asset('img/banners/entrena-con-estilo/entrenar1.jpg') }}" >
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="img-container">
+            <img src="{{ asset('img/banners/entrena-con-estilo/entrenar2.jpg') }}" >
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="img-container">
+            <img src="{{ asset('img/banners/entrena-con-estilo/entrenar9.jpg') }}" >
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="img-container">
+            <img src="{{ asset('img/banners/entrena-con-estilo/entrenar4.jpg') }}" >
+            </div>
+        </div>
+
+    </div>
+</div>
+<br><br>
+<h4 class="mb-5 titulosmigaleria">Colecciones Destacadas</h4>
 <div class="row mi-galeria2">
 
-    <div class="col-md-4 mb-4">
+    <div class="col-md-2 mb-4">
         <div class="card h-100">
-            <img src="{{ asset('img/fotoProducto10.jpg') }}" class="card-img-top">
+            <img src="{{ asset('img/banners/colecciones-destacadas/coleccion6.jpg') }}" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Producto 1</h5>
                 <p class="card-text">$10.000</p>
             </div>
         </div>
     </div>
-    <div class="col-md-4 mb-4">
+    <div class="col-md-2 mb-4">
         <div class="card h-100">
-            <img src="{{ asset('img/fotoProducto5.jpg') }}" class="card-img-top">
+            <img src="{{ asset('img/banners/colecciones-destacadas/coleccion1.jpg') }}" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Producto 1</h5>
                 <p class="card-text">$10.000</p>
             </div>
         </div>
     </div>
-    <div class="col-md-4 mb-4">
+    <div class="col-md-2 mb-4">
         <div class="card h-100">
-            <img src="{{ asset('img/fotoProducto7.jpg') }}" class="card-img-top">
+            <img src="{{ asset('img/banners/colecciones-destacadas/coleccion4.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Producto 1</h5>
+                <p class="card-text">$10.000</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2 mb-4">
+        <div class="card h-100">
+            <img src="{{ asset('img/banners/colecciones-destacadas/coleccion2.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Producto 1</h5>
+                <p class="card-text">$10.000</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2 mb-4">
+        <div class="card h-100">
+            <img src="{{ asset('img/banners/colecciones-destacadas/coleccion7.jpg') }}" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Producto 1</h5>
+                <p class="card-text">$10.000</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2 mb-4">
+        <div class="card h-100">
+            <img src="{{ asset('img/banners/colecciones-destacadas/coleccion5.jpg') }}" class="card-img-top">
             <div class="card-body">
                 <h5 class="card-title">Producto 1</h5>
                 <p class="card-text">$10.000</p>
@@ -126,20 +141,6 @@
     </div>
 
 </div>
-
-{{-- mi-galeria3
-<div class="col-md-4 mb-4 mi-otra-galeria">
-    <div class="card shadow-sm h-100">
-        <div class="producto-img">
-            <img src="{{ asset('img/fotoProducto9.jpg') }}">
-        </div>
-        <div class="card-body text-center">
-            <h5 class="card-title">Top deportivo</h5>
-            <p class="card-text">$12.000</p>
-            <a href="#" class="btn btn-dark">Ver producto</a>
-        </div>
-    </div>
-</div>
---}}
+<br>
 
 @endsection

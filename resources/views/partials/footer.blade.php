@@ -1,6 +1,5 @@
-<footer class="bg-dark text-white mt-auto py-1">{{--agrego fondo de color negro, texto blanco, margen superior automático para empujar el footer hacia abajo y padding vertical de 1--}}
-    <br>
-    <div class="container">
+<footer class="bg-dark text-white mt-auto py-5">{{--agrego fondo de color negro, texto blanco, margen superior automático para empujar el footer hacia abajo y padding vertical de 5--}}
+    <div class="container-fluid px-5">
         <div class="row text-center text-md-start">
         {{--agrego primera columna de información con medidas de margenes--}}
             <div class="col-md-4 mb-1"> 
@@ -9,7 +8,7 @@
                     <li><a href="#" class="text-white text-decoration-none"> Sobre Nosotros</a></li>
                     <li><a href="#" class="text-white text-decoration-none"> Devoluciones</a></li>
                     <li><a href="#" class="text-white text-decoration-none"> Botón de Arrepentimiento</a></li>
-                    <li><a href="#" class="text-white text-decoration-none"> Términos y Condiciones</a></li>
+                    <li><a href='/terminos-y-usos' class="text-white text-decoration-none"> Términos y Condiciones</a></li>
                    
                 </ul>
             </div>
@@ -45,5 +44,4 @@
             </div>
         </div>
     </div>
-    <br>
 </footer>

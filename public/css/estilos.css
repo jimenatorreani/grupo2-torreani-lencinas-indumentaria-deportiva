@@ -1,6 +1,6 @@
 body {
- background-color:  #f7f7f7;
- margin-top: 10px;
+    background-color: #f7f7f7;
+    margin-top: 10px;
 }
 
 .mi-header {
@@ -14,7 +14,7 @@ body {
 
 .mi-navbar {
     background-color: white !important;
-    border:1px solid black;
+    border: 1px solid black;
 }
 
 .mi-navbar .nav-link {
@@ -71,7 +71,7 @@ body {
     text-align: center;
 }
 
-.titulosmigaleria{
+.titulosmigaleria {
     font-family: Copperplate, fantasy;
 }
 
@@ -126,18 +126,33 @@ body {
 .mi-CardDelProducto .card-img-top {
     height: 250px;
     object-fit: contain;
-    background-color: #f8f9fa;  /*opcional, para rellenar espacio*/
+    background-color: #f8f9fa;
+    /*opcional, para rellenar espacio*/
 }
 
-.catalogomujeres{
+.catalogomujeres {
     text-align: center;
     font-family: Trebuchet MS, sans-serif !important;
 }
 
 /*botón subcategorías (remeras, joggings, zapas, calzas, etc)*/
-.mi-boton-subcategoria{
+.mi-boton-subcategoria {
     font-family: Trebuchet MS, sans-serif !important;
-    background-color:  #c72f2f;
-    color: white ;
+    background-color: #c72f2f;
+    color: white;
     border-color: #c72f2f;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
 }

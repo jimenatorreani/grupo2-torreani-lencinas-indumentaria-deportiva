@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 /*Ruta para la vista de inicio de laravel*/
 Route::get('/', function () {
-    return view('frontend.welcome');
+    return view('welcome');
 });
 
 /*Ruta para las vistas ('principal'.'quienes-somos','comercializacion','contactos','terminos-y-usos','consultas')*/
@@ -34,22 +34,22 @@ Route::view('/entregas', 'info.entregas')->name('entregas');
 Route::view('/devoluciones', 'info.devoluciones')->name('devoluciones');
 
 Route::get('/contactos', function () {
-    return view('partials.contactos'); 
+    return view('frontend.contactos'); 
 });
 Route::post('/contactos', function () {
     return "Consulta enviada correctamente";
 });
 
 Route::get('/terminos-y-usos', function () {
-    return view('partials.terminos-y-usos'); 
+    return view('frontend.terminos-y-usos'); 
 });
 
  Route::get('/consultas', function () {
-    return view('partials.consultas'); 
+    return view('frontend.consultas'); 
 });
 
 Route::get('/quienes-somos', function () {
-    return view('partials.quienes-somos');
+    return view('frontend.quienes-somos');
 });
 
 /*Route::get('/contacto', [ContactoController::class, 'index']); 

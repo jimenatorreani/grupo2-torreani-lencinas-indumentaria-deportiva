@@ -1,7 +1,7 @@
 @extends('layouts.plantilla-base')
-
+@section('titulo', 'QUIÉNES SOMOS')
 @section('content')
-
+<br>
 <h2>Quiénes Somos</h2>
 
 <p>
@@ -24,5 +24,5 @@ A pesar de la corta vida de la organización, contamos con una amplia trayectori
 <p>
 Actualmente, el staff de trabajo está conformado por los propios fundadores.
 </p>
-
+<br><br><br>
 @endsection

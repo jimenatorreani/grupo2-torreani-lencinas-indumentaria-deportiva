@@ -1,8 +1,8 @@
 @extends('layouts.plantilla-base')
-
+@section('titulo', 'TÉRMINOS Y USOS')
 @section('content')
 
-
+<br>
 <h1>Términos y Usos</h1>
 
 <h3>Información General</h3>
@@ -35,5 +35,5 @@
 
 <h3>Formas de Entrega</h3>
 <p>Ya finalizada la compra el cliente puede optar por envíos a sucursal de correo más cercana o envío a domicilio con costo.
-
+<br><br><br>
 @endsection

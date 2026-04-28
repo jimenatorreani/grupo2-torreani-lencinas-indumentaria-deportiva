@@ -1,6 +1,18 @@
 @extends('layouts.plantilla-base')
-
+@section('titulo', 'CONTACTOS')
 @section('content')
+<br>
+<h2>CONTACTO</h2>
+
+<p>Información de Contacto:
+Titulares de la Empresa: Torreani Jimena-Lencinas Mauricio    S.A
+</p>
+<p>Domicilio Legal: 9 de Julio 1449
+</p>
+<p>Teléfono: 3794-770467
+</p>
+<p>Email: indumentariasport@gmail.com
+</p>
 
 <h1>Consultas</h1>
 
@@ -31,5 +43,5 @@
 
     <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
-
+<br><br><br>
 @endsection

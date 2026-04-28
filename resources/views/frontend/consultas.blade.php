@@ -1,19 +1,7 @@
 @extends('layouts.plantilla-base')
-
+@section('titulo', 'CONSULTAS')
 @section('content')
-
-<h2>CONTACTO</h2>
-
-<p>Información de Contacto:
-Titulares de la Empresa: Torreani Jimena-Lencinas Mauricio    S.A
-</p>
-<p>Domicilio Legal: 9 de Julio 1449
-</p>
-<p>Teléfono: 3794-770467
-</p>
-<p>Email: indumentariasport@gmail.com
-</p>
-
+<br>
 <h1>Consultas</h1>
 
 <p>Completá el siguiente formulario y nos pondremos en contacto con vos.</p>
@@ -43,5 +31,5 @@ Titulares de la Empresa: Torreani Jimena-Lencinas Mauricio    S.A
 
     <button type="submit" class="btn btn-primary">Enviar</button>
 </form>
-
+<br><br><br>
 @endsection

@@ -33,6 +33,24 @@ Route::view('/envios', 'info.envios')->name('envios');
 Route::view('/entregas', 'info.entregas')->name('entregas');
 Route::view('/devoluciones', 'info.devoluciones')->name('devoluciones');
 
+Route::get('/contactos', function () {
+    return view('partials.contactos'); 
+});
+Route::post('/contactos', function () {
+    return "Consulta enviada correctamente";
+});
+
+Route::get('/terminos-y-usos', function () {
+    return view('partials.terminos-y-usos'); 
+});
+
+ Route::get('/consultas', function () {
+    return view('partials.consultas'); 
+});
+
+Route::get('/quienes-somos', function () {
+    return view('partials.quienes-somos');
+});
 
 /*Route::get('/contacto', [ContactoController::class, 'index']); 
 Route::post('/contacto', [ContactoController::class, 'procesar']);*/

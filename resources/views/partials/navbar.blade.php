@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark mi-navbar">
   <div class="container">
-    <a class="navbar-brand" href="#">SportXpress</a>
+    <a class="navbar-brand" href='/principal'>SportXpress</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -17,19 +17,19 @@
           </ul>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#">QUIÉNES SOMOS</a>
+          <a class="nav-link" href= '/quienes-somos'>QUIÉNES SOMOS</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/comercializacion">COMERCIALIZACIÓN</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#">CONTACTOS</a>
+          <a class="nav-link" href= '/contactos'>CONTACTOS</a>
         </li>
          <li class="nav-item">
-          <a class="nav-link" href="#">TÉRMINOS Y USOS</a>
+          <a class="nav-link" href='terminos-y-usos'>TÉRMINOS Y USOS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CONSULTAS</a>
+          <a class="nav-link" href='/consultas'>CONSULTAS</a>
         </li>
       </ul>
     </div>

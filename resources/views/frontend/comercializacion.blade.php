@@ -39,11 +39,11 @@
 <br>
 <br>
 
-<div class="row row justify-content-center g-4">
+<div class="row justify-content-center mi-card-comercializacion">
 
 <div class="col-md-3 mb-4">
 <div class="card" style="width: 18rem;">
-  <div class="card-body mi-card-comercializacion">
+  <div class="card-body">
     <h5 class="card-title">Pagos      
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card-2-back" viewBox="0 0 16 16">
         <path d="M11 5.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5z"/>
@@ -52,7 +52,8 @@
     </h5>
     <h6 class="card-subtitle mb-2 text-body-secondary">Formas y Metodos de pagos</h6>
     <p class="card-text">Cuotas, tarjetas, y billeteras virtuales</p>
-    <a href="{{ route('pagos') }}" class="card-link">Ver más</a>  </div>
+    <a href="{{ route('pagos') }}" class="card-link">Ver más</a>  
+  </div>
 </div>
 </div>
 
@@ -66,7 +67,8 @@
     </h5>
     <h6 class="card-subtitle mb-2 text-body-secondary">Formas y Metodos de envíos</h6>
     <p class="card-text">Preparación de paquetes, despacho, y seguimiento</p>
-    <a href="{{ route('envios') }}" class="card-link">Ver más</a>  </div>
+    <a href="{{ route('envios') }}" class="card-link">Ver más</a>  
+  </div>
 </div>
 </div>
 
@@ -80,7 +82,8 @@
     </h5>
     <h6 class="card-subtitle mb-2 text-body-secondary">Tipos de entregas</h6>
      <p class="card-text">Lugares de recoleccion y horarios de entrega </p> 
-<a href="{{ route('entregas') }}" class="card-link">Ver más</a>  </div>
+<a href="{{ route('entregas') }}" class="card-link">Ver más</a>  
+</div>
 </div>
 </div>
 
